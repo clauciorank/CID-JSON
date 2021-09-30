@@ -9,7 +9,7 @@ cid_complete = json.load(file)
 
 @app.route('/')
 def index():
-    return 'Para retornar todas as doenças: /cid10. Para retornar codigo específico /cid10/<codigo>'
+    return 'Para retornar todas as doenças: /cid10. Para retornar codigo específico /cid10/codigo'
 
 @app.route('/cid10')
 def return_all():
